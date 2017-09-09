@@ -93,6 +93,7 @@ end
 Finds the frequencies of all characters in the input string, returning a Dict
 of 'a' => 4, for instance. Uppercase characters are considered distinct from lowercase.
 """
+
 function frequencies(input)
   ans = Dict{Char, Integer}()
   for i in input

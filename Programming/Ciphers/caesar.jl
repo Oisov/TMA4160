@@ -27,7 +27,7 @@ so decrypt_caesar("abcd", 1) == "zabc".
 Converts the input to lowercase.
 """
 function decrypt_caesar(ciphertext, key::Integer)
-    # ciphertext: string;
+    # cipher-text: string;
     #        key: key
     #    Example: k=1 decrypts "B" as "a"
     key = mod(key-1, 26) + 1
